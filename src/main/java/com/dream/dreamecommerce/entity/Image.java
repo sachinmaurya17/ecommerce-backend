@@ -1,10 +1,12 @@
 package com.dream.dreamecommerce.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import java.sql.Blob;
 
-@Data
+@Getter
+@Setter
 @Entity(name = "image")
 public class Image {
     @Id
